@@ -6,4 +6,4 @@ project:
 stages:
   - jobs:
       - scripts:
-          - echo ${bamboo_capability_system_builder_mvn3_Maven_3}
+          - echo $bamboo_capability_system_builder_mvn3_Maven_3
