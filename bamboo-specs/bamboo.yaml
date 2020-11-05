@@ -8,5 +8,3 @@ stages:
       - scripts:
           - M2_HOME=${bamboo_capability_system_builder_mvn3_Maven_3}
           - ${bamboo_capability_system_builder_mvn3_Maven_3} clean install
-        requirements:
-             - system.builder.mvn3.Maven 3
