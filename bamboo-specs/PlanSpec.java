@@ -26,7 +26,7 @@ import com.atlassian.bamboo.specs.util.BambooServer;
 @BambooSpec
 public class PlanSpec {
     
-    public Plan plan() {
+    public Plan createPlan() {
         final Plan plan = new Plan(new Project()
                 .oid(new BambooOid("o8et7z0jo1dt"))
                 .key(new BambooKey("AC"))
@@ -74,7 +74,7 @@ public class PlanSpec {
         BambooServer bambooServer = new BambooServer("http://192.168.31.63:8085");
         final PlanSpec planSpec = new PlanSpec();
         
-        final Plan plan = planSpec.plan();
+        final Plan plan = planSpec.createPlan();
         bambooServer.publish(plan);
         
         final PlanPermissions planPermission = planSpec.planPermission();
