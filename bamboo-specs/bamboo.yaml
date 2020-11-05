@@ -1,0 +1,19 @@
+project:
+  key: AC
+  plan:
+    key: SLAYER
+    name: Dragon Slayer Quest
+stages:
+  - jobs:
+      - tasks:
+          - !maven3x
+               goal: install
+               description: build plug-in
+               workingSubDirectory: .
+               executable: maven323
+               buildJdk: jdk8
+               environmentVariables: what=EVER
+               withTests:
+                 testResultsDirectory: tests/
+               projectFile: a/b
+               useMavenReturnCode: false
