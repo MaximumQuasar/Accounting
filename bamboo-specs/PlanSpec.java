@@ -27,8 +27,8 @@ public class PlanSpec {
     Plan createPlan() {
        final Plan plan = new Plan(new Project()
                 .oid(new BambooOid("o8et7z0jo26a"))
-                .key(new BambooKey("PRJ"))
-                .name("Project Name"),
+                .key(new BambooKey("AC"))
+                .name("Accounting"),
             "Plan Name",
             new BambooKey("PLANKEY"))
             .oid(new BambooOid("o8540dnbu9s4"))
