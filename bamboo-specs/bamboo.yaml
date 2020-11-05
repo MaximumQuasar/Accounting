@@ -6,4 +6,4 @@ project:
 stages:
   - jobs:
       - scripts:
-          - ${bamboo_capability_system_builder_mvn3_Maven_3}/mvn clean test
+          - echo ${bamboo_capability_system_builder_mvn3_Maven_3}
