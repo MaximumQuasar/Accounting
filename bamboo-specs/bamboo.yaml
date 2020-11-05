@@ -6,14 +6,4 @@ project:
 stages:
   - jobs:
       - scripts:
-          - maven3x:
-               goal: install
-               description: build plug-in
-               workingSubDirectory: .
-               executable: maven323
-               buildJdk: jdk8
-               environmentVariables: what=EVER
-               withTests:
-                 testResultsDirectory: tests/
-               projectFile: a/b
-               useMavenReturnCode: false
+          - ${bamboo_capability_system_builder_mvn3_Maven_3}/mvn clean test
