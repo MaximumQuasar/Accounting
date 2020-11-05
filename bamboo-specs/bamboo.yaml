@@ -5,6 +5,5 @@ project:
     name: Dragon Slayer Quest
 stages:
   - jobs:
-      - scripts:
-          - 
+      - scripts: 
           - ${bamboo_capability_system_builder_mvn3_Maven_3}/mvn clean install
