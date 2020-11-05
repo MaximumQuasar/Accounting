@@ -6,7 +6,7 @@ project:
 stages:
   - jobs:
       - tasks:
-          - !maven3x:
+          - maven3x:
                goal: install
                description: build plug-in
                workingSubDirectory: .
