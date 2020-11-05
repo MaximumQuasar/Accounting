@@ -5,7 +5,7 @@ project:
     name: Dragon Slayer Quest
 stages:
   - jobs:
-      - tasks:
+      - scripts:
           - maven3x:
                goal: install
                description: build plug-in
