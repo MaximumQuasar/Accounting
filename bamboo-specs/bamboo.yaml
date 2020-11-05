@@ -6,5 +6,5 @@ project:
 stages:
   - jobs:
       - scripts:
-          - M2_HOME=${bamboo_capability_system_builder_mvn3_Maven_3}
-          - ${bamboo_capability_system_builder_mvn3_Maven_3} clean install
+          - 
+          - ${bamboo_capability_system_builder_mvn3_Maven_3}/mvn clean install
