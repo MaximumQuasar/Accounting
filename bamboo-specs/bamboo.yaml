@@ -1,9 +1,0 @@
-project:
-  key: AC
-  plan:
-    key: SLAYER
-    name: Dragon Slayer Quest
-stages:
-  - jobs:
-      - scripts: 
-          - ${bamboo_capability_system_builder_mvn3_Maven_3}/mvn clean install
