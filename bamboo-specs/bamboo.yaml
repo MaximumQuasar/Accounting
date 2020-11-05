@@ -1,0 +1,11 @@
+project:
+  key: AC
+  plan:
+    key: SLAYER
+    name: Dragon Slayer Quest
+stages:
+  - jobs:
+      - scripts:
+          - mvn --version
+        requirements:
+             - system.builder.mvn3.Maven 3
