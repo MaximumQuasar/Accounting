@@ -5,5 +5,5 @@ project:
     name: Dragon Slayer Quest
 stages:
   - jobs:
-      - scripts:
+      - scripts
           - echo 'Just Changed'
