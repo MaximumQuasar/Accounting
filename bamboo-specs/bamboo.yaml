@@ -1,10 +1,10 @@
 project:
-	key: AC
-	plan:
-		key: YAC
-		name: Default Job
+  key: AC
+  plan:
+    key: YAC
+    name: Default Job
 
 stages:
-	- jobs:
-	  - scripts:
-	       - ${bamboo.capability.system.builder.command.Nuget} restore
+  - jobs:
+      - scripts:
+          - ${bamboo.capability.system.builder.command.Nuget} restore
