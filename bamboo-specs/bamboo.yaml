@@ -1,9 +1,10 @@
 project:
-  key: AC
-  plan:
-    key: SLAYER
-    name: Dragon Slayer Quest
+	key: AC
+	plan:
+		key: YAC
+		name: Default Job
+
 stages:
-  - jobs:
-      - scripts:
-          - ${bamboo.capability.system.builder.mvn3.mvn} --version
+	- jobs:
+	  - scripts:
+	       - ${bamboo.capability.system.builder.command.Nuget} restore
