@@ -11,4 +11,4 @@ stages:
       - scripts:
           - '#!/bin/bash'
           - ${bamboo_capability_system_builder_msbuild_MSBuild_v4_0_64bit}
-          interpreter: shell
+        interpreter: shell
