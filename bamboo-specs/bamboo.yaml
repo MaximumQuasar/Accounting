@@ -9,4 +9,4 @@ stages:
       - scripts:
           - ${bamboo.capability.system.builder.command.Nuget} restore
       - scripts:
-          - echo ${bamboo.capability.system.builder.mvn3.mvn}
+          - ${bamboo.capability.system.builder.mvn3.mvn}
