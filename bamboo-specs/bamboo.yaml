@@ -9,4 +9,4 @@ stages:
       - scripts:
           - ${bamboo.capability.system.builder.command.Nuget} restore
       - scripts:
-          - ${bamboo.capability.system.builder.msbuild.MSBuild+v4.0+%2864bit%29} Accounting.sln /p:configuration=Release /p:target="Any CPU" /p:PublishProfile=Accounting.pubxml /p:DeployOnBuild=true
+          - ${bamboo.capability.system.builder.msbuild}
