@@ -9,4 +9,4 @@ stages:
       - scripts:
           - ${bamboo.capability.system.builder.command.Nuget} restore
       - scripts:
-          - echo ${bamboo.capability.system.builder}
+          - echo ${bamboo.capability.system.builder.msbuild}
