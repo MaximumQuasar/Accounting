@@ -8,4 +8,5 @@ stages:
   - jobs:
       - scripts:
           - ${bamboo.capability.system.builder.command.Nuget} restore
+      - scripts:
           - ${bamboo.capability.system.builder.msbuild.MSBuild v4.0 (64bit)}
